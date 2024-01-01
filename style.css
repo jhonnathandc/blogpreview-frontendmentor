@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree";
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f4d04e;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+span {
+  display: inline-block;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.4rem;
+}
+
+.main {
+  background-color: #ffffff;
+  padding: 2.4rem;
+  border-radius: 2rem;
+  border: 0.1rem solid #111111;
+  box-shadow: 8px 8px 0px 0px #000;
+}
+
+.image {
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-bottom: 2.4rem;
+  background-image: url("./images/illustration-article-1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 20rem;
+  animation: changeImage 2.5s linear infinite alternate;
+}
+
+@keyframes changeImage {
+  0% {
+    background-image: url("./images/illustration-article-1.svg");
+  }
+
+  33.33% {
+    background-image: url("./images/illustration-article-2.svg");
+  }
+
+  66.66% {
+    background-image: url("./images/illustration-article-3.svg");
+  }
+}
+
+.content {
+  margin-bottom: 2.4rem;
+}
+
+.content span {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 800;
+  color: #111111;
+  background-color: #f4d04e;
+  border-radius: 0.4rem;
+  padding: 0.4rem 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.content .data {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #111111;
+  margin-bottom: 1.2rem;
+}
+
+.content h1 {
+  font-size: 2.4rem;
+  line-height: 1.5;
+  font-weight: 800;
+  color: #111111;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.content h1:hover {
+  color: #f4d04e;
+}
+
+.content p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #7f7f7f;
+  max-width: 33.6rem;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.avatar img {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.avatar p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 800;
+  color: #111111;
+}
+
+@media screen and (max-width: 575px) {
+  .content span {
+    font-size: 1.2rem;
+  }
+
+  .content .data {
+    font-size: 1.2rem;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .content p {
+    font-size: 1.4rem;
+  }
+}
