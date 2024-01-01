@@ -1,15 +1,15 @@
-# 3-column Preview Card Component - FrontEnd Mentor
+# Blog Preview Card - FrontEnd Mentor
 
 This project is part of the challenges of [FrontEnd Mentor](https://www.frontendmentor.io/).
 
-[Access the deploy here.](https://nftpreview-frontendmentor.vercel.app/)
+[Access the deploy here.](https://blogpreview-frontendmentor.vercel.app/)
 <br>
 <br>
-[Access the challenge on the FrontEnd Mentor here.](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
+[Access the challenge on the FrontEnd Mentor here.](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS)
 
 ## Demonstration
+![Desktop + Mobile - 5](https://github.com/jhonnathandc/blogpreview-frontendmentor/assets/82620787/3dedeaf0-3877-49ab-805c-8f0710cff430)
 
-![Wireframe - 1](https://user-images.githubusercontent.com/82620787/235288053-9179feed-ce48-4712-96ce-f4a5fb2d3bfb.png)
 
 ## More Informations
 
